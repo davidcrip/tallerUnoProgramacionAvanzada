@@ -56,5 +56,5 @@ function calcularSalarioMensual(ventasLicencias) {
   let ventasLicencias = 3;
   let salarioVendedor = calcularSalarioMensual(ventasLicencias);
   
-  console.log(`El salario mensual del vendedor es: ${salarioVendedor} créditos galácticos`);
+  console.log(`El salario mensual del vendedor es: ${salarioVendedor} créditos galácticos`)
   
