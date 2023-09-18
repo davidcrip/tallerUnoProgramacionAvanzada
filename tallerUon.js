@@ -41,20 +41,20 @@
 
 //***********************? quinto punto ?*****************************//
 
-// let salarioBase = 3500000;
-// let comisionPorLicencia = 1500000;
-// let deduccionesImpuestos = 0.05;
+let salarioBase = 3500000;
+let comisionPorLicencia = 1500000;
+let deduccionesImpuestos = 0.05;
 
-// function calcularSalarioMensual(ventasLicencias) {
+function calcularSalarioMensual(ventasLicencias) {
   
-//     let comisionTotal = ventasLicencias * comisionPorLicencia;
-//     let salarioAntesDeducciones = salarioBase + comisionTotal;
-//     let impuestos = salarioAntesDeducciones * deduccionesImpuestos;
-//     let salarioMensual = salarioAntesDeducciones - impuestos;
-//     return salarioMensual;
-//   }
-//   let ventasLicencias = 3;
-//   let salarioVendedor = calcularSalarioMensual(ventasLicencias);
+    let comisionTotal = ventasLicencias * comisionPorLicencia;
+    let salarioAntesDeducciones = salarioBase + comisionTotal;
+    let impuestos = salarioAntesDeducciones * deduccionesImpuestos;
+    let salarioMensual = salarioAntesDeducciones - impuestos;
+    return salarioMensual;
+  }
+  let ventasLicencias = 3;
+  let salarioVendedor = calcularSalarioMensual(ventasLicencias);
   
-//   console.log(`El salario mensual del vendedor es: ${salarioVendedor} créditos galácticos`);
+  console.log(`El salario mensual del vendedor es: ${salarioVendedor} créditos galácticos`);
   
